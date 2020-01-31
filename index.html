@@ -1,0 +1,94 @@
+<!--Tells the browser which html version its using-->
+<!DOCTYPE html>
+<html><!-- Document Header Starts-->
+<head> <!--used to contain specific information about a web page-->
+<style> /*used to define style information for an HTML document*/
+div.container { /*This defines the division container*/
+    width: 45%; /*describes the width of the dvision container*/
+    margin: auto;/*It means that left and right margin will take auto margin according to the width of the element and the width of the container*/
+}
+header, footer {
+    padding: 0em; /*Size of the header*/
+    color: white; /*color of the text in header */
+    background-color: #8f1306; /*The color of the header */
+    clear: left;/*No floating elements allowed on the left side.*/
+    text-align: center; /*this align the header and footer in the center*/
+}
+
+
+/*navigation */
+#navigation ul, nav ul
+{
+	list-style-type:none;
+	display:block;
+}
+#navigation ul li, nav ul li
+{
+	float:left; /*aligns the list on the nav from the left*/
+	margin: 15px; /*The space between the list on the nav*/
+	padding:5px; /*create space around an element's content*/
+}
+#navigation ul:after, nav ul:after
+{
+	clear:both;
+	display:block;
+	content:"";
+}
+#sidebar, aside
+{
+	float:right; /*The side where it will be located*/
+	width:40%; /*The size of the content from the right */
+}
+
+</style> <!--end of the html style-->
+
+</head> <!--End of the head -->
+<body> <!--The body contain a web page's content, including hyperlinks, images, tables, text, etc.-->
+
+<div class="container"> <!--Start div-container -->
+<header> <!--used to contain specific information about a web page-->
+ <h1>What is Lorem Ipsum?</h1>
+</header> <!-- Document header edns-->
+
+<!-- Navigation menu-->
+<nav> <!--start of the navigation-->
+  <ul> <!--used for specifying an unordered list-->
+    <li>Home</li> <!--links called Home that will be on the navigation menu-->
+    <li>About us</li> <!--links called About US that will be on the navigation menu-->
+    <li>Activiries</li> <!--links called Activiries that will be on the navigation menu-->
+    <li>Contact</li> <!--links called Contact that will be on the navigation menu-->
+  </ul> <!--end of an unordered list--->
+  </nav><!--End of the navigation-->
+
+
+<aside> <!--identify primary content of the webpage, but does not constitute the primary content of the page-->
+  <ul> <!--used for specifying an unordered list-->
+  <h1>Aside</h1> <!--are used to define heading and the size of the headings-->
+  <li>Cah Nuts Limited</li> <!--list-->
+  <li>Business</li> <!--list-->
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+  <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+    as opposed to using 'Content here, content here', making it look like readable English</p> <!--Paragraph-->
+  </ul> <!--ende of unordered list -->
+</aside> <!--end of aside-->
+
+<article>
+ <h1>Article</h1> <!--are used to define heading and the size of the headings-->
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</article> <! end of article>
+
+<section><!--defines sections in a document such as a chapter--->
+  <h1>section</h1><!--are used to define heading and the size of the headings-->
+  <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <!--This is a paragraph-->
+</section> <!--End of the section-->
+<footer> <!--This typically shows or contains copyright and authorship-->
+  <span>copyright &copy; Cah Nuts Limited  2020 </span>
+</footer><!--end of footer-->
+
+</div> <!--End div-container -->
+</body> <!-- end of the web page's content-->
+</html> <!--End of the html-->
